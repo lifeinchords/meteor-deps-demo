@@ -9,7 +9,9 @@ http://manual.meteor.com/#tracker
 
 **********************************
 Meteor reactivity (binding) works with 2 key parts
+
 A) a function, placed inside a computation, also known as reactive *context
+
 B) a data source set up to "be" reactive. 
    The data source keeps track of which computations are called on it, 
    also know as it's dependencies. 
